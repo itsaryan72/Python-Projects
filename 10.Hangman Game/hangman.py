@@ -1,9 +1,10 @@
+#10. Guess the Word Game (Hangman):Create a simple version of the Hangman game where the player guesses a word one letter at a time.
+
 import random
-#,"programming","data","computer","cloud"
 
 def hangman():
 
-    words = ["python","algorithm"]
+    words = ["python","algorithm","programming","data","computer","cloud"]
     word = random.choice(words).lower()
     attempts = 6
     guessed_word = ['_']*len(word)
